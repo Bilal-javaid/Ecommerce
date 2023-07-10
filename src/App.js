@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Navbar from "./pages/Navbar";
 import Services from "./pages/Services";
+import PageNotFound from "./pages/PageNotFound";
 import './index.css';
 import { BrowserRouter as Router,Routes,  Route } from 'react-router-dom';
 const App = () =>{
@@ -18,6 +19,7 @@ const App = () =>{
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Router>
     </>

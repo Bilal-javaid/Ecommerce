@@ -18,7 +18,9 @@ const Home = () => {
             </div>
         </div>
         {/* HOME PAGE VIDEO SECTION */}
-        
+        <div className="products-section">
+            <h2 className="text-center fw-bold ">Latest Products</h2>
+        </div>
         </>
     );
 }

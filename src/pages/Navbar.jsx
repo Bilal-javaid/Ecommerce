@@ -25,10 +25,6 @@ const Navbar = () =>{
                   <NavLink exact activeClassName='active'  style={{color: "#fff" , textDecoration:"none"}}  class="nav-link text-light" to="/services">Services</NavLink>
                 </li>
               </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                <button class="btn btn-outline-light text-light" type="submit">Search</button>
-              </form>
             </div>
             </div>
           </div>
